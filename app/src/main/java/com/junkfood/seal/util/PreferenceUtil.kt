@@ -115,7 +115,7 @@ private const val INTERVAL_DAY = 86_400_000L
 private const val INTERVAL_WEEK = 86_400_000L * 7
 private const val INTERVAL_MONTH = 86_400_000L * 30
 
-const val DEFAULT_INTERVAL = INTERVAL_WEEK  // every week
+const val DEFAULT_INTERVAL = INTERVAL_DAY  // every day
 
 val UpdateIntervalList =
     mapOf(
@@ -208,7 +208,7 @@ private val IntPreferenceDefaults = mapOf(
     SHOW_SPONSOR_MSG to 0,
     CONVERT_SUBTITLE to NOT_SPECIFIED,
     DOWNLOAD_TYPE_INITIALIZATION to USE_PREVIOUS_SELECTION,
-    YT_DLP_UPDATE_CHANNEL to YT_DLP_NIGHTLY
+    YT_DLP_UPDATE_CHANNEL to YT_DLP_STABLE
 )
 
 private val LongPreferenceDefaults = mapOf(

@@ -53,6 +53,12 @@ English
 </div>
 
 
+## This fork
+
+This build keeps the original Seal 1.x interface and uses the downloader update from [Seal Plus](https://github.com/MaheshTechnicals/Sealplus/commit/387648eb3a191ace333011db3a6986c56869d01a). Its separate Android package lets it run alongside the original Seal.
+
+[Download this fork’s APK](https://github.com/natmulasa/Seal/releases/latest). On first launch, let Seal finish updating yt-dlp before starting a download.
+
 ## 📱 Screenshots
 
 <div align="center">
